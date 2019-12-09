@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|  
     s.name              = 'GoongSDK'
-    s.version           = '0.0.4'
+    s.version           = '0.0.5'
     s.summary           = 'Goong Map SDK for iOS'
     s.homepage          = 'https://goong.io/'
 
