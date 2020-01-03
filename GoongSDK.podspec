@@ -1,7 +1,8 @@
 
 Pod::Spec.new do |s|  
+    version             = '0.0.6'
     s.name              = 'GoongSDK'
-    s.version           = '0.0.6'
+    s.version           = "#{version}"
     s.summary           = 'Goong Map SDK for iOS'
     s.homepage          = 'https://github.com/goong-io/Goong-iOS-SDK'
 
@@ -13,8 +14,8 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.ios.deployment_target = '9.0'
-    s.source            = { :http => 'https://github.com/goong-io/Goong-iOS-SDK/raw/master/GoongSDK.framework.zip' }
-    s.ios.vendored_frameworks = 'GoongSDK.framework'
+    s.source            = { :http => "https://github.com/goong-io/Goong-iOS-SDK/releases/download/#{version}/GoongSDK.framework.zip" }
+    s.ios.vendored_frameworks = 'dynamic/GoongSDK.framework'
     s.requires_arc = true
 
 
