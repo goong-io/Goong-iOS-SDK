@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|  
-    version             = '0.0.6'
+    version             = '0.0.7'
     s.name              = 'GoongSDK'
     s.version           = "#{version}"
     s.summary           = 'Goong Map SDK for iOS'
     s.homepage          = 'https://github.com/goong-io/Goong-iOS-SDK'
 
-    s.author            = { 'Goong' => 'admin@goong.io' }
+    s.author            = { 'Goong' => 'support@goong.io' }
     s.license           = { :type => 'BSD', :file => 'LICENSE.md' }
 
     s.social_media_url  = 'https://www.facebook.com/GoongMaps/'
